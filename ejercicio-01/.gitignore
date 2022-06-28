@@ -1,0 +1,16 @@
+# ignore node_modules
+node_modules
+node_modules/
+/node_modules
+
+# ignore all logs
+*.log
+*.lock
+*lock.*
+
+.DS_STORE
+.vscode
+
+build
+build/
+/build
