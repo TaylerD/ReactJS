@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import Card from '../Card';
 
-export default function Products() {
+export default function Products({category=""}) {
   const [products, setProducts] = useState([]);
 
   async function getProducts() {
-    await fetch('https://pg-delsur.herokuapp.com/products')
+    console.log("getProducts", category);
+    await fetch(`https://pg-delsur.herokuapp.com/products?categoryId=${category}`)
       .then((response) => response.json())
       .then((data) => setProducts(data.products))
       .catch((error) => console.log('Hubo un problema con la petición Fetch:' + error.message));
@@ -14,7 +15,7 @@ export default function Products() {
   useEffect(() => {
     // getProducts().then((data) => setProducts(data));
     getProducts();
-  }, []);
+  }, [category]);
 
   return (
     <div className="container">
