@@ -1,4 +1,5 @@
 import { Fragment, useContext, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import { CartContext } from './CartContext';
 import { CartContent, Product, DetailProduct, Details, PriceDetail, ProductAmountContainer, ProductAmount, Price } from './styledComponents';
 import { Button } from '@material-ui/core';
@@ -10,6 +11,9 @@ const Cart = () => {
         <>
             <br/>
             <CartContent>
+                <div style={{justifyContent: "flex-end", alignItems : "flex-end", display: "flex", flexDirection: "column", paddingRight: "5%", fontSize: "24px"}}>
+                    <Link to='/invoice' style={{textDecoration: "none", color: "white"}}><Button variant="contained" style={{backgroundColor: "green", color: "white"}}> Pagar Ahora </Button></Link>
+                </div>                
                 {
                     context.cartList.map(item => (
                         <Product key={item.id}>
@@ -19,7 +23,9 @@ const Cart = () => {
                                     <span>
                                         <b>Producto:</b> {item.name}
                                     </span>
-                                    <Button variant="contained" color="secondary" onClick={() => context.deleteProduct(item.id)} >Eliminar Producto</Button>
+                                    <span>
+                                        <Button variant="contained" color="secondary" onClick={() => context.deleteProduct(item.id)} >Eliminar Producto</Button>
+                                    </span>
                                 </Details>
                             </DetailProduct>
                             <PriceDetail>
@@ -42,7 +48,8 @@ const Cart = () => {
                         <div style={{justifyContent: "flex-end", alignItems : "flex-end", display: "flex", backgroundColor: "#EEEBEA", flexDirection: "column", paddingRight: "20%", fontSize: "24px"}}>
                             <h2>Total</h2>
                             <h2>${context.totalCost}</h2>
-                        </div></>
+                        </div>
+                        </>
                     : 
                     <><br/><hr/>  
                         <div style={{justifyContent: "center", alignItems : "center", display: "flex"}}>

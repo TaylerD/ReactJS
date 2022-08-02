@@ -8,6 +8,8 @@ const ItemListContainer = () => {
     const [datos, setDatos] = useState([]);
     const { idCategory } = useParams();
 
+    // const products = `https://pg-delsur.herokuapp.com/products?categoryId=2`
+
     useEffect(() => {
         customFetch(2000, products.filter(item => {
             if (idCategory === undefined) return item;

@@ -3,6 +3,7 @@ import Cart from "../components/Cart";
 import CartContextProvider from "../components/CartContext";
 import ItemDetailContainer from "../components/ItemDetailContainer";
 import ItemListContainer from "../components/ItemListContainer";
+import Invoice from "../components/Invoice";
 import NavBar from "../components/NavBar";
 import Login from "../components/Login";
 import AuthContextProvider from '../contexts/AuthContext';
@@ -23,6 +24,7 @@ const Home = () => {
                     <Route path='/item/:idItem' element={<ItemDetailContainer />} />
                     <Route path="/login" element={<Login />} />
                     <Route path='/cart' element={<Cart />} />
+                    <Route path='/invoice' element={<Invoice />} />
                 </Routes>
             </AuthContextProvider>
             </BrowserRouter>

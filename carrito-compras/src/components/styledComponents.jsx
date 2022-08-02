@@ -19,6 +19,7 @@ const Center = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flexDirection: components;
 `;
 
 const Logo = styled.h1`
@@ -177,6 +178,7 @@ const CartContent = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 5px
 `;
 
 const Product = styled.div`

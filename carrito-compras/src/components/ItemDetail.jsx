@@ -9,7 +9,7 @@ const ItemDetail = ({ item }) => {
     const [itemCount, setItemCount] = useState(0);
     const context = useContext(CartContext);
 
-    console.log("CartContext", context);
+    // console.log("CartContext", context);
 
     const filterCartList = context.cartList.filter(dat => dat.id == item.id);
     let filterData = filterCartList[0]; 
@@ -36,11 +36,7 @@ const ItemDetail = ({ item }) => {
                         <Desc>{ item.stock - qty } unidades en stock</Desc>
                     </InfoContainer>
                     {
-                        // itemCount === 0 ?
                          <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                            // : 
-                            // <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                            // // <Link to='/cart' style={{textDecoration: "none"}}><Button variant="contained" color="secondary">CheckOut</Button></Link>
                     }
                 </WrapperDetail>
             </DetailContainer>

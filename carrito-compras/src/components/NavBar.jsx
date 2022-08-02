@@ -14,9 +14,10 @@ const NavBar = () => {
                     <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>U-SHOP</Logo></Link>
                 </Left>
                 <Center>
-                    <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Sin Alcohol</MenuItem></Link>
                     <Link to='/category/1' style={{textDecoration: "none", color: "white"}}><MenuItem>Vinos</MenuItem></Link>
-                    <Link to='/category/5' style={{textDecoration: "none", color: "white"}}><MenuItem>Licores</MenuItem></Link>                    
+                    <Link to='/category/2' style={{textDecoration: "none", color: "white"}}><MenuItem>Espumantes</MenuItem></Link>
+                    <Link to='/category/5' style={{textDecoration: "none", color: "white"}}><MenuItem>Licores</MenuItem></Link>
+                    <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Sin alcohol</MenuItem></Link>                    
                 </Center>
                 <Right>
                      {

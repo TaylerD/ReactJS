@@ -263,7 +263,268 @@ const products = [
         name: "Amareto Disaronno"
       },
       reviews: []
+    },
+    {
+      "id": 161,
+      "name": "Baron B Rose 750",
+      "stock": 100,
+      "cost": 2060,
+      "description": "Elegante color rosado brillante aportado por el Malbec. Expresa sensualidad y vivacidad. Fresco y sedoso. Se destaca la presencia de frutos rojos , notas florales y finos aromas a confitura de guindas y praliné aportado por el contacto con levaduras. De paladar amable y fresco. Este espumante sorprende por su equilibrio perfecto entre fruta, intensidad y cremosidad.",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316098/BodegasDelSur/01_1605639870.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 32,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 32,
+        "name": "Baron B"
+      },
+      "reviews": []
+    },
+    {
+      "id": 143,
+      "name": "Chandon Aperitif 187",
+      "stock": 100,
+      "cost": 240,
+      "description": "Chandon Apéritif es la expresión del estilo innovador de Chandon. Un macerado artesanal de naranjas y una selección de especias de distintos lugares del mundo se combinan en este espumoso con ese toque bitter que lo hace único.",
+      "capacity": 187,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619535745.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 70,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 70,
+        "name": "Chandon"
+      },
+      "reviews": []
+    },
+    {
+      "id": 151,
+      "name": "Chandon Délice 375",
+      "stock": 100,
+      "cost": 430,
+      "description": "Chandon Délice es la expresión de la vanguardia. Manifiesta su estilo innovador a través de la frescura y versatilidad.",
+      "capacity": 375,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316101/BodegasDelSur/01_1606494574.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 70,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 70,
+        "name": "Chandon"
+      },
+      "reviews": []
+    },
+    {
+      "id": 157,
+      "name": "Chandon Extra Brut 375",
+      "stock": 100,
+      "cost": 430,
+      "description": "Chandon Extra Brut es el icono fundador de Bodegas Chandon en Argentina. Es la preservación del auténtico estilo de la empresa pionera en espumantes.",
+      "capacity": 375,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316128/BodegasDelSur/01_1627310745.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 70,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 70,
+        "name": "Chandon"
+      },
+      "reviews": []
+    },
+    {
+      "id": 158,
+      "name": "Chandon Rosé 375",
+      "stock": 100,
+      "cost": 430,
+      "description": "La frescura, sedosidad y delicadeza de Chandon Rosé, nos traslada a un asombroso momento de sensaciones únicas e incomparables.",
+      "capacity": 375,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316101/BodegasDelSur/01_1606498003.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 70,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 70,
+        "name": "Chandon"
+      },
+      "reviews": []
+    },
+    {
+      "id": 142,
+      "name": "Cinzano Pro-Spritz 750ml",
+      "stock": 100,
+      "cost": 750,
+      "description": "",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316123/BodegasDelSur/01_1626362590.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 74,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 74,
+        "name": "Cinzano"
+      },
+      "reviews": []
+    },
+    {
+      "id": 162,
+      "name": "Espumante Alambrado Blanc de Blancs 750 ml",
+      "stock": 100,
+      "cost": 575,
+      "description": "Color: Amarillo limón, con destellos dorados. Nariz: Aromas a pan tostado y levadura propios de la segunda fermentación en botella, se combinan con aromas a frutas blancas (pera, membrillo) típicos de la variedad Chardonnay. Boca: Entrada amable y cremosa, su equilibrada acidez le da un final fresco con recuerdos cítricos.",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316098/BodegasDelSur/01_1605554954.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 10,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 10,
+        "name": "Alambrado"
+      },
+      "reviews": []
+    },
+    {
+      "id": 165,
+      "name": "Espumante Alma 4 Pinot Chardonnay 2017 750ml",
+      "stock": 100,
+      "cost": 1250,
+      "description": "Este corte de Pinot Noir y Chardonnay del Valle de Uco elaborado por Marcela Manini, Agustín López, Sebastián Zuccardi y Mauricio Castro para su proyecto Alma 4 es siempre un vino que gusta por su complejidad y elegancia. Su cosecha 2017 es de color amarillo perlado con finas burbujas y aromática profunda. Recuerda a tostada de pan de campo con frutos secos y cítricos maduros además de praliné, mermeladas y miel. En boca es fresco, intenso con buena mousse y burbuja amable. Sabroso, franco y largo.",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605533297.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 13,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 13,
+        "name": "Alma 4"
+      },
+      "reviews": []
+    },
+    {
+      "id": 164,
+      "name": "Espumante Alma 4 Pinot Rosé 2016 750 ml",
+      "stock": 100,
+      "cost": 1250,
+      "description": "Elaborado con 70 % Pinot Noir y 30 % de Chardonnay, de aromas directos y equilibrados. Con una acidez bien marcada que potencia la burbuja. De entrada impetuosa y paso refrescante, con un carácter bien cítrico, aunque también aparecen las frutas blancas. Y si ben no es muy profundo, es elocuente de la cosecha y va ganando equilibrio con el paso de los meses en la botella.",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605535172.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 13,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 13,
+        "name": "Alma 4"
+      },
+      "reviews": []
+    },
+    {
+      "id": 155,
+      "name": "Espumante Latitud 33 Dulce 750ml",
+      "stock": 100,
+      "cost": 490,
+      "description": "Amarillo pálido con destellos dorados. Fresco y expresivo, desprende aromas de mermelada de naranja y frutas confitadas. Se destaca por el perfecto equilibrio entre dulzura y acidez. Predomina la presencia de frutas. Ideal para acompañar quesos frescos y azules, brusquetas de hongos o tostada con paté de trucha.",
+      "capacity": 750,
+      "image": [
+        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316098/BodegasDelSur/01_1605712916.jpg"
+      ],
+      "sales": 0,
+      "createdAt": "2022-06-14T23:00:46.434Z",
+      "updatedAt": "2022-06-14T23:00:46.434Z",
+      "categoryId": 2,
+      "brandId": 157,
+      "packingId": 1,
+      "category": {
+        "name": "Espumantes",
+        "id": 2
+      },
+      "brand": {
+        "id": 157,
+        "name": "Latitud 33"
+      },
+      "reviews": []
     }
+
   ];
 
   module.exports = {
